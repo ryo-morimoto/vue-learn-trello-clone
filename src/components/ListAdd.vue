@@ -17,7 +17,7 @@ export default {
       title: "",
     };
   },
-  method: {
+  methods: {
     addList: function () {
       this.$store.dispatch("addList", { title: this.title });
       this.title = "";
